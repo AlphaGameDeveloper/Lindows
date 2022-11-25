@@ -1,0 +1,21 @@
+{
+	"lindows-installer": {
+		"current-installer-version": "1.0.0",
+		"allowed-old-versions": []
+	},
+	"package-manager": {
+		"packages": [
+			{
+				"id": "cat",
+				"base": true,
+				"author": "Damien Boisvert (AlphaGameDev)",
+				"version": "1.0.0",
+				"github": "https://github.com/AlphaGameDeveloper/Lindows",
+				"description": "Types out your text files.",
+				"has-cli": true,
+				"cli-syntax": "cat [-h,--help], file/*",
+				"dl-url": ""
+			}
+		]
+	}
+}
