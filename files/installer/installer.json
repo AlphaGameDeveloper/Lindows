@@ -4,8 +4,11 @@
 		"allowed-old-versions": []
 	},
 	"package-manager": {
-		"packages": [
-			{
+		"base-commands": [
+			"cat"
+		],
+		"packages": {
+			"cat": {
 				"id": "cat",
 				"base": true,
 				"author": "Damien Boisvert (AlphaGameDev)",
@@ -14,8 +17,8 @@
 				"description": "Types out your text files.",
 				"has-cli": true,
 				"cli-syntax": "cat [-h,--help], file/*",
-				"dl-url": ""
+				"dl-url": null
 			}
-		]
+		}
 	}
 }
